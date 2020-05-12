@@ -10,16 +10,21 @@ We also suggest if you need direction to check out the `Project Checklist` markd
 Both this boiler plate and the checklist were built simultaneously, so feel free to use them in tandem. 
 
 > Eventually you will delete everything above this line. This is just here to introduce the boilerplate. We also suggest deleting any other indentations like this. There are more there to get you thinking about the 'point' of the section. 
-# The Title of Your Project Goes Here 
+# Customer Personal Loan Prediction 
 
 One sentence summary goes here saying what you did.
 A second sentence goes here says why it matters.
 A last sentence links to any productionized web dashboard here.
 
-You can also link to 
-* [Your Email]()
-* [Your Linked In]()
-* [Your Twitter?]()
+>The objective of this project was to utilise several key features such as income, mortgage, and size of household and operate multiple regression models and identify the likelihood of a customer obtaining a personal loan. 
+
+>Utilising such models would be fruitful for banks as they could identify and increase the conversion rate of customers successfully accepting a personal loan from UBC
+
+If you liked this project, and would like to learn more, then contact me directly on the following:
+
+* [arman_hussain786@hotmail.com]()
+* [https://www.linkedin.com/in/arman-hussain-110793ah/]()
+
 
 > We suggest that people follow a "Facebook Page" approach to writing up their README. This means that the most important information is at the top (your name, point of project, contact info) and then as you go down the document you get less and less relevant information. Remember that you are NOT writing a detective story and need to find a way to present as much information as quickly as possible to the person that will be looking at this for 45 seconds tops. Of course others might look for longer, but the UX/UI of your REAMDE should be done with the 'github skimmer' in mind.
 
@@ -38,7 +43,9 @@ Then end with one sentence that picks what your best model was and how it perfor
 Lastly, you say in one or two sentences why this matters. 
 For example, now as opposed to before this data analysis, you can now predict X better than Y. 
 
-The goal of this project was to create a `regression/classification` model that was able to predict `what you set out to do`.
+###Project Goal
+
+The goal of this project was to create a `regression/classification` model that was able to predict the likelihood of a customer obtaining a personal loan from Universal Banking Corporation. 
 
 > If you are able to swap out the text here with what your case example is you will demonstrate the following:
 > 1. You get why what you're doing 'matters'
