@@ -9,16 +9,11 @@ The way to use this template is to just copy and paste the file structure (don't
 We also suggest if you need direction to check out the `Project Checklist` markdown file  that is found in this repository as well as the [Capstone Questions](https://docs.google.com/document/d/11Otz1b2oRT3Xn0TK16X1o44hphGP4aBqdpARv0GWXBA/edit?usp=sharing) document for help building and assessing this project. 
 Both this boiler plate and the checklist were built simultaneously, so feel free to use them in tandem. 
 
-> Eventually you will delete everything above this line. This is just here to introduce the boilerplate. We also suggest deleting any other indentations like this. There are more there to get you thinking about the 'point' of the section. 
 # Customer Personal Loan Prediction 
 
-One sentence summary goes here saying what you did.
-A second sentence goes here says why it matters.
-A last sentence links to any productionized web dashboard here.
+The objective of this project was to utilise several key features such as income, mortgage, and size of household and operate multiple classification models and determine the likelihood of a customer obtaining a personal loan. 
 
->The objective of this project was to utilise several key features such as income, mortgage, and size of household and operate multiple regression models and identify the likelihood of a customer obtaining a personal loan. 
-
->Utilising such models would be fruitful for banks as they could identify and increase the conversion rate of customers successfully accepting a personal loan from UBC
+Utilising such models would be fruitful for banks as they could identify and increase the conversion rate of customers successfully accepting personal loans for their own use.
 
 If you liked this project, and would like to learn more, then contact me directly on the following:
 
@@ -45,7 +40,7 @@ For example, now as opposed to before this data analysis, you can now predict X 
 
 ###Project Goal
 
-The goal of this project was to create a `regression/classification` model that was able to predict the likelihood of a customer obtaining a personal loan from Universal Banking Corporation. 
+The goal of this project was to create classification model that was able to predict the likelihood of a customer obtaining a personal loan from Universal Banking Corporation. 
 
 > If you are able to swap out the text here with what your case example is you will demonstrate the following:
 > 1. You get why what you're doing 'matters'
