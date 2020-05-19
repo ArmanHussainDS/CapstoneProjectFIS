@@ -1,49 +1,49 @@
 # Capstone Project   
 ## Customer Personal Loan Prediction 
-
-The objective of this project was to utilise several key features such as income, mortgage, and size of household and operate multiple classification models and determine the likelihood of a customer obtaining a personal loan. 
-
-Utilising such models would be fruitful for banks as they could identify and increase the conversion rate of customers successfully accepting personal loans for their own use.
-
-If you liked this project, and would like to learn more, then contact me directly on the following:
-
-* [arman_hussain786@hotmail.com]()
-* [https://www.linkedin.com/in/arman-hussain-110793ah/]()
-
 ### Executive Summary
 
 Start with one or two sentences here that contextualises what your project matters here.
 These two sentences will demonstrate your business understanding. 
 
-Next, in a second paragraph, write how you were able to make a data science operationalization of the problem.
-For example, you might say that in order to help solve this problem you set out to build a classification ML model in order to automate some process. 
+Decision Trees after performing Hyperparameter Optimisations turned out to give an accuracy level of 99.912%. This result caused further investigative measures to check for data leakage and overfitting and was accounted for during cross validation and fitting to a validation dataset.
 
-Third, you then write what you did on the project that is a bit more technical.
-Here you might say that you took data from [here and make it a link to the original data]() and then ran `a list of models you ran here` in your analysis.
-Then end with one sentence that picks what your best model was and how it performed.
+Before undertaking this project I had often thought that level of Education would not be a strongly indicative predictor whether a person would be offered and subsequently accepting a loan. However, the findings seemed to prove otherwise when modelling feature importance.
 
-Lastly, you say in one or two sentences why this matters. 
-For example, now as opposed to before this data analysis, you can now predict X better than Y. 
+### Business Understanding
+As an employee of Universal Banking Corporation (UBC) we have noticed the growing population of our bank's users. Given recent measures and the economic climate, we are trying to produce and improve the way the bank seeks out and provides customer loans. We are producing a model that will predict the likelihood of a customer obtaining a loan from UBC, on the basis the customer is invited to apply for a loan. 
 
-###Project Goal
+In a cost and time efficient way, such models like the one produced would be conducive to banks as it would be helpful to identify the customers likely to be accepted to loan applications. This improves the rate at which banks increase their revenue and reduces the necessity to look externally for other customers. Such models could also be used to encourage existing customers to apply for additional loans including credit cards, overdrafts, and mortgages.
 
-The goal of this project was to create classification model that was able to predict the likelihood of a customer obtaining a personal loan from Universal Banking Corporation. 
+### Data Understanding
 
-> If you are able to swap out the text here with what your case example is you will demonstrate the following:
-> 1. You get why what you're doing 'matters'
-> 2. You are able to take ill defined problems and turn them into something a data scienst can solve
-> 3. You show off your analystical and modeling chops.
-> 4. You are able to communicate technical things you do.
+This project investigates a Bank Loan Modelling dataset. The California Housing Dataset was used in addition to the Bank Loan Modelling dataset to obtain additional features and thereby see an impact on our prediction, if any. 
 
-### More Information
+By using the longitude and latitude data from the California Housing Dataset, I was able to convert the coordinates into zipcodes and merge this with the Bank Loan Modelling Dataset.
 
-Below your Executive Summary, you can document whatever you feel would be of interest to a future employer.
-Here I would especially suggest diving a bit deeper into your methodology and including images that you are proud of from the project. 
-Remember, that people will probably judge your github project page within 45 seconds tops, you want it to look as clean as possible. 
+### Objective
 
-Write documentation that looks like someone you would want to work with.
+The objective of this project was to utilise several key features such as income, mortgage, and size of household and build multiple classification models and determine the likelihood of a customer obtaining a personal loan. 
 
-### Data Visualizations
+Utilising such models would be fruitful for banks as they could identify and increase the conversion rate of customers successfully accepting personal loans for their own use.
+
+## Data Sources
+The datasets for this project was obtained from Kaggle and have been attached using a Hyperlink:
+
+- Bank Loan Modelling - [https://www.kaggle.com/itsmesunil/bank-loan-modelling]()
+- California Housing Data -  [https://www.kaggle.com/camnugent/california-housing-prices]()
+
+## Methodological Process
+
+A project of this magnitude required a great depth of thinking as to how I would overcome and approach a challenge. To do this I utilised the CRISP-DM model which included the following stages
+
+- Business Understanding
+- Data Understanding
+- Data Preparation
+- Modelling
+- Evaluation
+- Deployment
+
+## Data Visualizations
 
 ![](Images/Acceptance.png)
 
@@ -57,14 +57,25 @@ This heatmap was used to show the initial correlation of features within the Dat
 
 #### Feature Importance
 
-Through data modelling the most important features of the data set which determined the loan acceptance rate were the Education, Income, and Average Spending on Credit Cards per month (000s), denoted as CCAvg.
+Through data modelling, the most important features of the data set which determined the loan acceptance rate were the Education, Income, and Average Spending on Credit Cards per month (000s), denoted as CCAvg.
 
-These are displayed in the following bar charts using Seaborn
+These are displayed in the following bar charts using Seaborn.
 
 ![](Images/Education.png)
 
 ![](Images/Income.png)
 
 ![](Images/CCAvg.png)
+
+The Histogram plot of the variables gave us a real feel for our data, and allowed me to interpret the general skewness of our data This was produced using Seaborn.
+
+![](Images/Histplot.png)
+
+#### Contact Details
+
+If you liked this project, and would like to learn more, then contact me directly on the following:
+
+* [arman_hussain786@hotmail.com]()
+* [https://www.linkedin.com/in/arman-hussain-110793ah/]()
 
 
