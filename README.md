@@ -49,12 +49,22 @@ Write documentation that looks like someone you would want to work with.
 
 Our bar chart displaying the initial relationship between the number of customers accepting the loan versus not accepting a loan was the result of initial data exploration. 
 
-Subsequently the percentage of people accepting loans versus not accepting loans was calculated. This result was 
+Subsequently the percentage of people accepting loans versus not accepting loans was calculated. This result was 8.93% of customers being offered and accepting a loan. In contrast, 91.07% of customers did not accept the loan on the basis they were offered one.
 
-![](HeatMap.png)
+![](Images/HeatMap.png)
 
 This heatmap was used to show the initial correlation of features within the DataFrame and also remove features that were causing multicollinearity. 
 
+#### Feature Importance
 
+Through data modelling the most important features of the data set which determined the loan acceptance rate were the Education, Income, and Average Spending on Credit Cards per month (000s), denoted as CCAvg.
+
+These are displayed in the following bar charts using Seaborn
+
+![](Images/Education.png)
+
+![](Images/Income.png)
+
+![](Images/CCAvg.png)
 
 
