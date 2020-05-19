@@ -10,9 +10,6 @@ If you liked this project, and would like to learn more, then contact me directl
 * [arman_hussain786@hotmail.com]()
 * [https://www.linkedin.com/in/arman-hussain-110793ah/]()
 
-
-> We suggest that people follow a "Facebook Page" approach to writing up their README. This means that the most important information is at the top (your name, point of project, contact info) and then as you go down the document you get less and less relevant information. Remember that you are NOT writing a detective story and need to find a way to present as much information as quickly as possible to the person that will be looking at this for 45 seconds tops. Of course others might look for longer, but the UX/UI of your REAMDE should be done with the 'github skimmer' in mind.
-
 ### Executive Summary
 
 Start with one or two sentences here that contextualises what your project matters here.
@@ -46,12 +43,18 @@ Remember, that people will probably judge your github project page within 45 sec
 
 Write documentation that looks like someone you would want to work with.
 
-### Show Off Your Data Viz
+### Data Visualizations
 
-![Everyone Likes a Pairplot](figures/seaborn-pairplot-3.png)
+![](Images/Acceptance.png)
 
-> Image taken from `seaborn` [documentation](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+Our bar chart displaying the initial relationship between the number of customers accepting the loan versus not accepting a loan was the result of initial data exploration. 
 
-**DO NOT PUT THE GOOD BITS OF YOUR PROJECT BURRIED AWAY AT THE BOTTOM OF YOUR README, YOU ARE NOT WRITING A DETECTIVE NOVEL**
+Subsequently the percentage of people accepting loans versus not accepting loans was calculated. This result was 
+
+![](HeatMap.png)
+
+This heatmap was used to show the initial correlation of features within the DataFrame and also remove features that were causing multicollinearity. 
+
+
 
 
