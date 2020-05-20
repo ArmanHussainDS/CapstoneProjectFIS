@@ -1,12 +1,12 @@
 # Capstone Project   
 ## Customer Personal Loan Prediction 
 ## Table of Contents
-1. [File Descriptions](#FileDescriptions)
-2. [Executive Summary](#Executive)
-3. [Business Understanding](#BusinessUnderstanding)
-4. [Data Understanding](#Data)
-5. [Project Objective](#ProjectObjective)
-6. [Data Sources](#DataSources)
+1. [File Descriptions](#File-Descriptions)
+2. [Executive Summary](#Executive-Summary)
+3. [Business Understanding](#Business-Understanding)
+4. [Data Understanding](#Data-Understanding)
+5. [Project Objective](#Project-Objective)
+6. [Data Sources](#Data-Sources)
 7. [Methodological Process](#Methodological)
 8. [Modelling](#Modelling)
 9. [Data Visualizations](#Data)
