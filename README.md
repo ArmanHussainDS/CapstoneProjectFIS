@@ -7,12 +7,12 @@
 4. [Data Understanding](#Data-Understanding)
 5. [Project Objective](#Project-Objective)
 6. [Data Sources](#Data-Sources)
-7. [Methodological Process](#Methodological)
+7. [Methodological Process](#Methodological-Process)
 8. [Modelling](#Modelling)
-9. [Data Visualizations](#Data)
-10. [Feature Importance](#Feature)
+9. [Data Visualizations](#Data-Visualizations)
+10. [Feature Importance](#Feature-Importance)
 11. [Evaluation](#Evaluation)
-12. [Future Improvement Ideas](#Future)
+12. [Future Improvement Ideas](#Future-Improvement-Ideas)
 
 
 
