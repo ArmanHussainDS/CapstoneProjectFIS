@@ -1,5 +1,27 @@
 # Capstone Project   
 ## Customer Personal Loan Prediction 
+## Table of Contents
+1. [File Descriptions](#File Descriptions)
+2. [Executive Summary](#Executive Summary)
+3. [Business Understanding](#Business Understanding)
+4. [Data Understanding](#Data Understanding)
+5. [Project Objective](#Project Objective)
+6. [Data Sources](#Data Sources)
+7. [Methodological Process](#Methodological Process)
+8. [Modelling](#Modelling)
+9. [Data Visualizations](#Data Visualizations)
+10. [Feature Importance](#Feature Importance)
+11. [Evaluation](#Evaluation)
+12. [Future Improvement Ideas](#Future Improvement Ideas)
+
+
+### File Descriptions
+Data - This folder contains the datasets used for this project in CSV format.
+
+Personal_Loan.ipynb - This is the notebook containing the in depth Data Preparation, Modelling and Evaluation of our best performing model. To reproduce the results of this notebook. Simply clone it into your drive and run all cells.
+
+Personal_Loan.pdf - Presentation summarising findings and actionable problem solving solutions for the bank to deploy to improve efficiency and achieve requirements.
+
 ### Executive Summary
 
 Start with one or two sentences here that contextualises what your project matters here.
@@ -20,7 +42,7 @@ This project investigates a Bank Loan Modelling dataset. The California Housing 
 
 By using the longitude and latitude data from the California Housing Dataset, I was able to convert the coordinates into zipcodes and merge this with the Bank Loan Modelling Dataset.
 
-### Objective
+### Project Objective
 
 The objective of this project was to utilise several key features such as income, mortgage, and size of household and build multiple classification models and determine the likelihood of a customer obtaining a personal loan. 
 
@@ -34,7 +56,7 @@ The datasets for this project was obtained from Kaggle and have been attached us
 
 ## Methodological Process
 
-A project of this magnitude required a great depth of thinking as to how I would overcome and approach a challenge. To do this I utilised the CRISP-DM model which included the following stages
+A project of this magnitude required a great depth of thinking as to how I would overcome and approach a challenge. To do this I utilised the CRISP-DM model which included the following stages:
 
 - Business Understanding
 - Data Understanding
@@ -42,6 +64,16 @@ A project of this magnitude required a great depth of thinking as to how I would
 - Modelling
 - Evaluation
 - Deployment
+
+## Modelling
+
+The models investigated in this notebook were:
+
+- Logistic Regression (Baseline Model)
+- Random Forest Classifier
+- Decision Trees Classifier 
+
+All of these models were Hyperparameter Tuned using GridSearchCV to obtain a better score.
 
 ## Data Visualizations
 
@@ -78,4 +110,10 @@ If you liked this project, and would like to learn more, then contact me directl
 * [arman_hussain786@hotmail.com]()
 * [https://www.linkedin.com/in/arman-hussain-110793ah/]()
 
+## Evaluation
 
+The best performing model was Decision Trees. The ROC_AUC score produced on the validation training set was 95.46%. After Hyperparameter Tuning Optimisation this score was 99.912%
+
+## Future Improvement Ideas
+
+Given the opportunity to further improve this project and with less computationally intensive limitations, I would run more classification models including but not limited to Gaussian Naive Bayes and K-Nearest Neighbours algorithms.
