@@ -23,10 +23,9 @@ Personal_Loan.ipynb - This is the notebook containing the in depth Data Preparat
 
 Personal_Loan.pdf - Presentation summarising findings and actionable problem solving solutions for the bank to deploy to improve efficiency and achieve requirements.
 
-### Executive Summary
+For reproducibility of this notebook simply clone to your local drive and run the notebook in Jupyter.
 
-Start with one or two sentences here that contextualises what your project matters here.
-These two sentences will demonstrate your business understanding. 
+### Executive Summary
 
 Decision Trees after performing Hyperparameter Optimisations turned out to give an accuracy level of 99.912%. This result caused further investigative measures to check for data leakage and overfitting and was accounted for during cross validation and fitting to a validation dataset.
 
@@ -118,3 +117,6 @@ The best performing model was Decision Trees. The ROC_AUC score produced on the 
 ## Future Improvement Ideas
 
 Given the opportunity to further improve this project and with less computationally intensive limitations, I would run more classification models including but not limited to Gaussian Naive Bayes and K-Nearest Neighbours algorithms.
+
+The use neural networks to detect loan recovery rates following loan acceptance could be particularly conducive for banks. 
+Lastly, applying our hyper parameters to other economical datasets of similar binary classification problems
