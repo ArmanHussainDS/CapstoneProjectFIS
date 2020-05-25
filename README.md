@@ -27,6 +27,10 @@ For reproducibility of this notebook simply clone to your local drive and run th
 
 ### Executive Summary
 
+Thorough analysis using the best performing classification model had shown that the bank would lose potentially £253,000 for failing to identify the customers that would not take the loan, but in fact did.
+
+The reasoning behind the selection of each chosen model, are given in the notebook.
+
 Decision Trees after performing Hyperparameter Optimisations turned out to give an accuracy level of 99.912%. This result caused further investigative measures to check for data leakage and overfitting and was accounted for during cross validation and fitting to a validation dataset.
 
 Before undertaking this project I had often thought that level of Education would not be a strongly indicative predictor whether a person would be offered and subsequently accepting a loan. However, the findings seemed to prove otherwise when modelling feature importance.
@@ -72,6 +76,8 @@ The models investigated in this notebook were:
 - Logistic Regression (Baseline Model)
 - Random Forest Classifier
 - Decision Trees Classifier 
+- K-Nearest Neighbours Classifier
+- Gaussian Naive Bayes Classifier
 
 All of these models were Hyperparameter Tuned using GridSearchCV to obtain a better score.
 
