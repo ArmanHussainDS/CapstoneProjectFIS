@@ -93,6 +93,8 @@ Through data modelling, the most important features of the data set which determ
 
 These are displayed in the following bar charts using Seaborn.
 
+![](Images/FeatureRanking.png)
+
 ![](Images/Education.png)
 
 ![](Images/Income.png)
